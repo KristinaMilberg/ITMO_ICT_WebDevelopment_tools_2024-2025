@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../models/">
+        <link rel="prev" href="../task2/">
       
-      
-        <link rel="next" href="../endpoints/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Подключение к базе данных - Лабораторные работы, 2 семестр</title>
+        <title>Ход работы - Лабораторные работы, 2 семестр</title>
       
     
     
@@ -62,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#3-fastapi-docker" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Подключение к базе данных
+              Ход работы
             
           </span>
         </div>
@@ -208,19 +206,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -234,7 +230,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             1 Лабораторная
@@ -266,30 +262,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Подключение к базе данных
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../database/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -298,86 +274,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Настройка подключения
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connectiondb" class="md-nav__link">
-    <span class="md-ellipsis">
-      Файл connection.db
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Файл connection.db">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#connectiondb_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      connection.db
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      Инициализация базы
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      Получение сессии
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#alembic" class="md-nav__link">
-    <span class="md-ellipsis">
-      Alembic: миграции схемы базы данных
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -499,17 +395,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -523,7 +421,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             3 Лабораторная
@@ -534,10 +432,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../work3/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Ход работы
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -546,6 +464,131 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dockerfile-fastapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dockerfile приложения FastApi
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dockerfile-parser" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dockerfile приложения parser
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-composeyaml" class="md-nav__link">
+    <span class="md-ellipsis">
+      docker-compose.yaml
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#celery_apppy" class="md-nav__link">
+    <span class="md-ellipsis">
+      celery_app.py
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taskspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      tasks.py
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fastapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинты в приложении FastApi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Эндпоинты в приложении FastApi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parser_apppy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Файл parser_app.py
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинт приложения парсера
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parser" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинт для общения с parser
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parser_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинт для общения с parser, настроенный через очередь
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинт для того, чтобы узнать статус задачи
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -585,46 +628,100 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#dockerfile-fastapi" class="md-nav__link">
     <span class="md-ellipsis">
-      Настройка подключения
+      Dockerfile приложения FastApi
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#connectiondb" class="md-nav__link">
+  <a href="#dockerfile-parser" class="md-nav__link">
     <span class="md-ellipsis">
-      Файл connection.db
+      Dockerfile приложения parser
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Файл connection.db">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker-composeyaml" class="md-nav__link">
+    <span class="md-ellipsis">
+      docker-compose.yaml
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#celery_apppy" class="md-nav__link">
+    <span class="md-ellipsis">
+      celery_app.py
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taskspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      tasks.py
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fastapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинты в приложении FastApi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Эндпоинты в приложении FastApi">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#connectiondb_1" class="md-nav__link">
+  <a href="#parser_apppy" class="md-nav__link">
     <span class="md-ellipsis">
-      connection.db
+      Файл parser_app.py
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Инициализация базы
+      Эндпоинт приложения парсера
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#parser" class="md-nav__link">
     <span class="md-ellipsis">
-      Получение сессии
+      Эндпоинт для общения с parser
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parser_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинт для общения с parser, настроенный через очередь
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Эндпоинт для того, чтобы узнать статус задачи
     </span>
   </a>
   
@@ -632,15 +729,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#alembic" class="md-nav__link">
-    <span class="md-ellipsis">
-      Alembic: миграции схемы базы данных
-    </span>
-  </a>
   
 </li>
       
@@ -659,34 +747,194 @@
                   
 
 
-<h1 id="_1">Подключение к базе данных</h1>
-<p>Для работы приложения с базой данных используется SQLAlchemy через обёртку <code>SQLModel</code>, а также <code>.env</code> для хранения чувствительных данных. Подключение организовано централизованно через модуль <code>connection.db</code>. Также реализована миграционная система с помощью Alembic.</p>
-<hr />
-<h2 id="_2">Настройка подключения</h2>
-<p>Файл <code>.env</code> содержит строку подключения к PostgreSQL:</p>
-<pre><code># env.py 
-DB_ADMIN='postgresql://........@localhost:5433/timemngmt_db'
-</code></pre>
-<h2 id="connectiondb">Файл connection.db</h2>
-<h3 id="connectiondb_1">connection.db</h3>
-<pre><code>load_dotenv()  # Загружаем переменные из .env
+<h1 id="3-fastapi-docker">Лабораторная работа 3. Упаковка FastAPI приложения в Docker, Работа с источниками данных и Очереди</h1>
+<h3 id="dockerfile-fastapi">Dockerfile приложения FastApi</h3>
+<pre><code>FROM python:3.11-slim
 
-db_url = os.getenv('DB_ADMIN')  # Получаем строку подключения из переменной окружения
-engine = create_engine(db_url, echo=True)  # echo=True — для логов SQL в консоли
+WORKDIR /app
+
+ENV PYTHONPATH=/app
+
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 </code></pre>
-<h3 id="_3">Инициализация базы</h3>
-<pre><code>def init_db():
-    SQLModel.metadata.create_all(engine)
+<h3 id="dockerfile-parser">Dockerfile приложения parser</h3>
+<pre><code>FROM python:3.11-slim
+
+WORKDIR /parser
+
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD ["uvicorn", "app.parser_app:app", "--host", "0.0.0.0", "--port", "8001"]
 </code></pre>
-<p>Этот метод создаёт все таблицы в базе данных на основе моделей, если они ещё не существуют.</p>
-<h3 id="_4">Получение сессии</h3>
-<pre><code>def get_session():
-    with Session(engine) as session:
-        yield session
-get_session() используется как зависимость (Depends) в API-эндпойнтах FastAPI для взаимодействия с базой данных в рамках одной сессии.
+<h3 id="docker-composeyaml">docker-compose.yaml</h3>
+<pre><code>services:
+  postgres:
+    image: postgres:15
+    container_name: postgres_container_lab
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - "5436:5432"
+    networks:
+      - backend
+
+  redis:
+    image: redis:7
+    container_name: redis_container
+    ports:
+      - "6379:6379"
+    networks:
+      - backend
+
+  fastapi_app:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    container_name: fastapi_app
+    depends_on:
+      - postgres
+      - redis
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    networks:
+      - backend
+
+  parser_app:
+    build:
+      context: ./parser_app
+      dockerfile: Dockerfile
+    container_name: parser_app
+    depends_on:
+      - postgres
+      - redis
+    env_file:
+      - .env
+    ports:
+      - "8001:8001"
+    networks:
+      - backend
+
+  celery_worker:
+    build:
+      context: ./app
+    command: celery -A app.celery_app worker --loglevel=info
+    container_name: celery_worker
+    working_dir: /app
+    environment:
+      - PYTHONPATH=/app
+    depends_on:
+      - redis
+      - postgres
+    env_file:
+      - .env
+    networks:
+      - backend
+
+  celery_beat:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    container_name: celery_beat
+    command: celery -A app.celery_app beat --loglevel=info
+    depends_on:
+      - redis
+    env_file:
+      - .env
+    networks:
+      - backend
+
+
+volumes:
+  postgres:
+
+networks:
+  backend:
 </code></pre>
-<h2 id="alembic">Alembic: миграции схемы базы данных</h2>
-<p>Для управления изменениями в структуре БД используется Alembic.</p>
+<h3 id="celery_apppy">celery_app.py</h3>
+<pre><code>from celery import Celery
+
+celery_app = Celery(
+    "fastapi",
+    broker="redis://redis:6379/0",
+    backend="redis://redis:6379/1"
+)
+
+celery_app.conf.beat_schedule = {
+    "run-parsing-every-2-minutes": {
+        "task": "app.tasks.run_periodic_parsing",
+        "schedule": 120.0,
+    },
+}
+
+celery_app.autodiscover_tasks(["app"])
+</code></pre>
+<h3 id="taskspy">tasks.py</h3>
+<pre><code>import os
+import requests
+
+from app.celery_app import celery_app
+from urls import urls
+
+
+@celery_app.task(name="app.tasks.parse_url_task")
+def parse_url_task(urls: list[str]):
+    parser_url = os.getenv("PARSER_URL", "http://parser_app:8001/parse")
+    response = requests.post(parser_url, json={"urls": urls})
+    response.raise_for_status()
+    return response.json()
+
+@celery_app.task(name="app.tasks.run_periodic_parsing")
+def run_periodic_parsing():
+    parse_url_task.delay(urls)
+    return f"Dispatched {len(urls)} parsing tasks"
+</code></pre>
+<h2 id="fastapi">Эндпоинты в приложении FastApi</h2>
+<h3 id="parser_apppy">Файл parser_app.py</h3>
+<pre><code>from fastapi import FastAPI
+from parser.parse import ParseRequest
+from parser.parser import run_parser
+
+app = FastAPI()
+
+
+@app.post("/parse")
+async def parse_url(parse_request: ParseRequest):
+    print(parse_request.urls)
+    print(f"Parsing URLS: {parse_request.urls}")
+    await run_parser(parse_request.urls)
+    return {"message": "Parsing completed"}
+</code></pre>
+<h3 id="_1">Эндпоинт приложения парсера</h3>
+<p><img alt="parser.png" src="../images/lab3/parser.png" /></p>
+<h3 id="parser">Эндпоинт для общения с parser</h3>
+<p><img alt="parse1.png" src="../images/lab3/parse1.png" />
+<img alt="parse2.png" src="../images/lab3/parse2.png" /></p>
+<h3 id="parser_1">Эндпоинт для общения с parser, настроенный через очередь</h3>
+<p><img alt="queue1.png" src="../images/lab3/queue1.png" />
+<img alt="queue2.png" src="../images/lab3/queue2.png" /></p>
+<h3 id="_2">Эндпоинт для того, чтобы узнать статус задачи</h3>
+<p><img alt="status.png" src="../images/lab3/status.png" /></p>
 
 
 
